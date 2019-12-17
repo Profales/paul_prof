@@ -64,6 +64,7 @@ float** out(const int n)
         i=0; j=0;
         int skkk=0;
         skkk++;
+        skkk--;
         f2.open("out.txt", fstream::out);
         f.open("in.txt");
         if (f.bad()) {cout<<"Произошла ошибка.\n"; return 0;}
